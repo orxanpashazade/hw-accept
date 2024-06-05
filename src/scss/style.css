@@ -1,0 +1,55 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.buyContainerArea {
+  width: 100vw;
+  height: 879px;
+  background-color: #F5ECE7;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.buyContainerArea .cardArea {
+  z-index: 99;
+  width: 400px;
+  height: 300px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+  padding: 10px 0px;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.buyContainerArea .cardArea i, .buyContainerArea .cardArea i, .buyContainerArea .cardArea i, .buyContainerArea .cardArea i {
+  font-size: 20px;
+  border-radius: 50%;
+  padding: 12px 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buyContainerArea .cardArea button {
+  color: black;
+  padding: 8px 18px;
+  border: 1px solid black;
+  background-color: transparent;
+}
+
+.left-svg {
+  position: absolute;
+  left: 0px;
+}
+
+.right-svg {
+  position: absolute;
+  right: 0px;
+  z-index: 0;
+}/*# sourceMappingURL=style.css.map */
